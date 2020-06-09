@@ -7,7 +7,7 @@
 
 
 ### Ecoleta
->The main objective of this site it's to collect and register any point for collect biodegradable materials. Anyone who own's for example a market can register your's location as a point of collection of this materials. The website cotains a map where you can show exactly where is your business location. Than you tell us your name, e-mail, WhatsApp number, city and state. After all this information you will submit >us your data and a image of the local and that's it, now you are registered in our data base as a collection point.  
+>The main objective of this site it's to collect and register any point for collect biodegradable materials. Anyone who own's for example a market can register your's location as a point of collection of this materials. The website cotains a map where you can show exactly where is your business location. Than you tell us your name, e-mail, WhatsApp number, city and state. After all this information you will submit us your data and a image of the local and that's it, now you are registered in our data base as a collection point.  
 
 
 ---
