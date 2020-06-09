@@ -2,7 +2,7 @@ import path from 'path';
 
 /**
  * knex file for connection route, migration (Creating tables on data base),
- * and seeds(Default values inserted on DB before starting the server first time).
+ * and seeds(Default values inserted on DB before starting the server for first time).
  */
 
 module.exports = {
