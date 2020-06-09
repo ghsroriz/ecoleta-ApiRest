@@ -1,6 +1,12 @@
 import { Request, Response } from 'express';
 import knex from '../database/connection';
 
+/**
+ * This is the Points Controller.
+ *
+ * You can vist README.md ,at the begin, for further information.
+ */
+
 class PointsController {
     async create(request: Request, response: Response) {
         const {

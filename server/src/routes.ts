@@ -2,6 +2,10 @@ import express from 'express';
 import PointsController from './controllers/pointsController';
 import ItemsController from './controllers/itemsController';
 
+/**
+ * This is the main file that defines all the routes used by this API.
+ */
+
 const routes = express.Router();
 const itemsController = new ItemsController();
 const pointsController = new PointsController();
