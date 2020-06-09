@@ -1,13 +1,13 @@
 # Ecoleta ApiRestful
 
 >This API was developet at Rocketseat's bootcamp.
-> First of all this application was devoloped for learning more about web development and acquiring experience, knowledge and skills in >Javascript, Typescript. Also i've developed a front-end using _Typescript_ and _React_, and you can find all this on this [link](https://github.com/ghsroriz/ecoleta-React-Rocketseat).
+>First of all this application was devoloped for learning more about web development and acquiring experience, knowledge and skills in _Javascript_, _Typescript_. Also i've developed a front-end using _Typescript_ and _React_, and you can find all this on this [link](https://github.com/ghsroriz/ecoleta-React-Rocketseat).
 
 ---
 
 
 ### Ecoleta
->The main objective of this site it's to collect and register any point for collect biodegradable materials. Anyone who own's for example a >market can register your's location as a point of collection of this materials. The website cotains a map where you can show exactly where >is your business location. Than you tell us your name, e-mail, WhatsApp number, city and state. After all this information you will submit >us your data and a image of the local and that's it, now you are registered in our data base as a collection point.  
+>The main objective of this site it's to collect and register any point for collect biodegradable materials. Anyone who own's for example a market can register your's location as a point of collection of this materials. The website cotains a map where you can show exactly where is your business location. Than you tell us your name, e-mail, WhatsApp number, city and state. After all this information you will submit >us your data and a image of the local and that's it, now you are registered in our data base as a collection point.  
 
 
 ---
