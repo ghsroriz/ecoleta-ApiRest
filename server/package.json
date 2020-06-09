@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts",
+    "install-express": "npm install express -D",
+    "express-types": "npm install @types/express",
+    "ts-node": "npm install ts-node -D",
+    "typescript": "npm install typescript -D",
+    "tsc--init": "npx tsc --init",
+    "seed": "npx knex --knexfile knexfile.ts seed:run",
+    "migration": "npx knex --knexfile knexfile.ts migrate:latest",
+    "cors": "npm install cors -D",
+    "type:cors": "npm install @types/cors -D"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "knex": "^0.21.1",
+    "sqlite3": "^4.2.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ts-node": "^8.10.2"
+  }
+}
