@@ -27,4 +27,20 @@
 
 ### Controllers
 
->This is a very simple project, just for learning some skills developing a web application. So using express to build all the back-end we have two types of controllers in this app, Items Controller and points controllers. Starting with the simplest. 
+>This is a very simple project, just for learning some skills developing a web application. So using express to build all the back-end we have two types of controllers in this app, Items Controller and points controllers. Starting with the simplest: "Items controller":
+
+`class ItemsController{
+    async index(request:Request, response:Response) {
+        const items = await knex('items').select('*');
+        const serializedItems = items.map(item => {
+            return {
+                id: item.id,
+                title: item.title,
+                image_url: `http://localhost:3333/uploads/${item.image}`
+            }
+        });
+        return response.json(items);
+    }
+}`
+>Here i attached the most important part of the code for this controller, it selects all the items (types os items that can be collected by a location) within the images location, and it is used to compose the front-end. If you visit the link of the front-end you can see more information about about!!!
+
